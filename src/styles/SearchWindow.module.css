@@ -1,0 +1,36 @@
+.SearchWindow {
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    background-color: #272A38;
+    height: 68px;
+    width: 100%;
+    border-bottom: 1px solid #1B1E27;
+}
+
+.SearchButton {
+    position: absolute;
+    background-color: #303549;
+    border: 2px solid #303549;
+    margin-left: 320px;
+    margin-top: -45px;
+    width: 35px;
+    height: 35px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.SearchWindow h2 {
+    height: 15px;
+    width: 236px;
+    position: relative;
+    text-indent: 23px;
+    margin: 23px;
+    line-height: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0;
+    color: #ffffff;
+}
+

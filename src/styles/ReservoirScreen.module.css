@@ -1,0 +1,146 @@
+.reservoirScreen {
+    display: flex;
+    margin-top: 6px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #232532;
+    border-radius: 8px;
+    color: white;
+    height: 977px;
+    width: 570px;
+    margin-left: 420px;
+}
+
+.imageContainer {
+    position: relative;
+    margin-top: 39px;
+    margin-bottom: 20px;
+}
+
+.reservoirImage {
+    position: relative;
+    width: 122px;
+    height: 165px;
+    z-index: 1;
+    justify-content: center;
+
+}
+
+.highlightImage {
+    position: absolute;
+    margin-left: -45px;
+    height: 123px;
+    width: 213px;
+    margin-top: 70px;
+    left: 0;
+}
+
+.detailsContainer {
+    margin-top: 59px;
+    width: 100%;
+}
+
+.detailItem {
+    display: flex;
+    background-color: #272A38;
+    width: 485px;
+    height: 45px;
+    margin-left: 41px;
+    border-bottom: 9px solid #232532;
+}
+
+.detailValue {
+    display: grid;
+    color: white;
+    font-size: 18px;
+    align-content: center;
+    margin-left: 26px;
+}
+
+.detailLabel {
+    display: grid;
+    background-color: #303549;
+    height: 45px;
+    width: 45px;
+    place-items: center;
+}
+
+.massImage{
+    position: relative;
+}
+
+.fillImage{
+    margin-top: 12.5px;
+    position: absolute;
+}
+
+.buttonGroup {
+    width: 485px;
+    margin-left: 41px;
+    line-height: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0;
+    color: #ffffff;
+}
+
+.saveButton,
+.cancelButton {
+    width: 485px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.tonnButton {
+    width: 95px;
+    height: 33px;
+    border: 2px solid #232532;
+    cursor: pointer;
+    background-color: #0089FF;
+    color: white;
+}
+
+.saveButton {
+    width: 232px;
+    height: 45px;
+    border: 2px solid #232532;
+    cursor: pointer;
+    background-color: #0089FF;
+    color: white;
+}
+
+.percentButton {
+    width: 33px;
+    height: 33px;
+    border: 2px solid #232532;
+    cursor: pointer;
+    background-color: #303549;
+    color: white;
+    margin-left: 9px;
+}
+
+.cancelButton {
+    width: 232px;
+    height: 45px;
+    background-color: #303549;
+    border: 2px solid #232532;
+    color: white;
+}
+
+.statusText {
+    align-content: center;
+    margin-left: 26px;
+}
+
+.deleteButton {
+    width: 485px;
+    height: 45px;
+    margin-left: 41px;
+    background-color: #303549;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
