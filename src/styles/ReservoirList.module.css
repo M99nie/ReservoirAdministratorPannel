@@ -1,0 +1,27 @@
+.reservoirList{
+    position: absolute;
+    margin-top: 45px;
+    width: 100%;
+}
+
+.reservoirList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reservoirList li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    line-height: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0;
+    height: 45px;
+    border-bottom: 1px solid #1B1E27;
+    border-top: 1px solid #1B1E27;
+    background-color: #272A38;
+    color: white;
+    text-indent: 60px;
+}

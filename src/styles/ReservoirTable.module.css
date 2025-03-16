@@ -1,0 +1,27 @@
+.container {
+    position: absolute;
+    height: 970px;
+    width: 371px;
+    background-color: #232532;
+    margin-top: 6px;
+    margin-left: 30px;
+}
+
+.reservoirList {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.searchWindow{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 80%;
+    height: 80%;
+    z-index: 2;
+}
+

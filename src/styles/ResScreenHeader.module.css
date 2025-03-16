@@ -1,0 +1,17 @@
+.ResScreenHeader {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272A38;
+    height: 68px;
+    width: 570px;
+}
+
+.ResScreenHeader h2 {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0;
+    color: #ffffff;
+}
