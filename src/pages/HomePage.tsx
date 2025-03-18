@@ -8,13 +8,7 @@ const HomePage: React.FC = () => {
         <div>
             <Header/>
             <ReservoirTable/>
-            <ReservoirScreen
-                name="Резервуар 501"
-                resource="Керосин"
-                volume={15000}
-                unit="Тонны"
-                status="Резервуар не заблокирован"
-            />
+            <ReservoirScreen/>
         </div>
     )
 }
